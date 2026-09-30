@@ -2,14 +2,12 @@
 
 <!-- start custom head snippets -->
 
-<!-- Apply a saved/system theme before the page paints to avoid a flash. -->
+<!-- Apply a saved theme before the page paints; otherwise default to light. -->
 <script>
   (function () {
     try {
       var saved = localStorage.getItem('fatima-site-theme');
-      var theme = saved === 'light' || saved === 'dark'
-        ? saved
-        : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      var theme = saved === 'light' || saved === 'dark' ? saved : 'light';
       document.documentElement.setAttribute('data-theme', theme);
     } catch (_) {}
   })();
@@ -28,6 +26,6 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
-<meta name="theme-color" content="#fffdfb"/>
+<meta name="theme-color" content="#ffffff"/>
 
 <!-- end custom head snippets -->
