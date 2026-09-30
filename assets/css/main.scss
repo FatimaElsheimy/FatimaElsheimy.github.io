@@ -2,10 +2,9 @@
 ---
 
 /*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * Academic Pages base styles.
+ * Personal presentation overrides live in /assets/css/site.css so the site
+ * can support a clean light/dark palette without fighting the theme files.
  */
 
 @import
@@ -31,7 +30,6 @@
     "syntax",
 
     "layout/forms",
-
     "layout/page",
     "layout/archive",
     "layout/sidebar",
@@ -41,131 +39,3 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-
-html,
-body,
-#main,
-.page,
-.page__inner-wrap,
-.archive,
-.initial-content {
-  background: #050505 !important;
-  color: #f6eaf1 !important;
-}
-
-body {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace !important;
-}
-
-/* remove ugly default academicpages navbar */
-.masthead {
-  display: none !important;
-}
-
-/* main page layout */
-.page {
-  max-width: 980px !important;
-  margin: 0 auto !important;
-  padding: 2rem !important;
-}
-
-.page__content {
-  font-size: 0.98rem !important;
-  line-height: 1.75 !important;
-}
-
-.page__content h1,
-.page__content h2,
-.page__content h3 {
-  color: #ff4fa3 !important;
-}
-
-.page__content h2 {
-  border-bottom: 1px solid #ff4fa3 !important;
-  padding-bottom: 0.35rem !important;
-  margin-top: 3rem !important;
-}
-
-.page__content a {
-  color: #ff79b8 !important;
-}
-
-.page__content strong {
-  color: #ffffff !important;
-}
-
-/* profile photo */
-.profile-pic {
-  width: 190px;
-  max-width: 35vw;
-  height: auto;
-  border-radius: 16px;
-  object-fit: cover;
-  border: 1px solid #ff4fa3;
-  box-shadow: 0 0 18px rgba(255, 79, 163, 0.35);
-}
-
-/* hide sidebar profile stuff */
-.sidebar,
-.author__avatar,
-.author__content,
-.author__urls-wrapper {
-  display: none !important;
-}
-
-/* floating light/dark toggle */
-.toggle-theme {
-  position: fixed !important;
-  top: 20px !important;
-  right: 24px !important;
-  z-index: 9999 !important;
-}
-
-#theme-toggle {
-  background: transparent !important;
-  border: 1px solid #ff4fa3 !important;
-  color: #ff79b8 !important;
-  cursor: pointer !important;
-  font-size: 1.2rem !important;
-  border-radius: 999px !important;
-  padding: 0.35rem 0.55rem !important;
-}
-
-/* light mode */
-body.light-mode,
-body.light-mode html,
-body.light-mode #main,
-body.light-mode .page,
-body.light-mode .page__inner-wrap,
-body.light-mode .archive,
-body.light-mode .initial-content {
-  background: #f7f3f5 !important;
-  color: #111111 !important;
-}
-
-body.light-mode .page__content {
-  color: #111111 !important;
-}
-
-body.light-mode .page__content h1,
-body.light-mode .page__content h2,
-body.light-mode .page__content h3 {
-  color: #d6007b !important;
-}
-
-body.light-mode .page__content h2 {
-  border-bottom-color: #d6007b !important;
-}
-
-body.light-mode .page__content a {
-  color: #cc0077 !important;
-}
-
-body.light-mode .page__content strong {
-  color: #000000 !important;
-}
-
-body.light-mode #theme-toggle {
-  color: #cc0077 !important;
-  border-color: #cc0077 !important;
-}

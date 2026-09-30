@@ -11,9 +11,9 @@ title                    : "Fatima Elsheimy"
 title_separator          : "-"
 name                     : &name "Fatima Elsheimy"
 description              : &description "personal description"
-url                      : https://0xFAE.github.io 
+url                      : https://fatimaelsheimy.github.io 
 baseurl                  : "" 
-repository               : "0xFAE/0xFAE.github.io"
+repository               : "FatimaElsheimy/FatimaElsheimy.github.io"
 teaser                   : 
 breadcrumbs              : false 
 words_per_minute         : 160
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "0xFAE"
+  github           : "FatimaElsheimy"
   google_plus      :
   keybase          :
   instagram        :
