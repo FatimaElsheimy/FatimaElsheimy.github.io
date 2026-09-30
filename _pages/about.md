@@ -8,14 +8,20 @@ author_profile: false
 <div class="home-shell">
   <header class="home-header">
     <div class="home-name">Fatima Elsheimy</div>
-    <nav class="home-nav" aria-label="Primary navigation">
-      <a href="#about">About</a>
-      <a href="#publications">Publications</a>
-      <a href="#experience">Experience</a>
-      <a href="#talks">Talks</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="home-controls">
+      <nav class="home-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#talks">Talks</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+        <span class="theme-toggle__sun" aria-hidden="true">☀</span>
+        <span class="theme-toggle__track" aria-hidden="true"><span class="theme-toggle__thumb"></span></span>
+        <span class="theme-toggle__moon" aria-hidden="true">☾</span>
+      </button>
+    </div>
   </header>
 
   <section class="hero" aria-labelledby="home-title">
@@ -52,36 +58,6 @@ author_profile: false
         My research focuses on distributed cryptographic systems, applied cryptography,
         consensus algorithms, and blockchain protocols.
       </p>
-    </div>
-  </section>
-
-  <section id="education" class="content-section">
-    <div class="section-label"><h2>Education</h2></div>
-    <div class="section-body experience-list">
-      <article class="experience-item">
-        <div>
-          <h3 class="experience-title">Yale University</h3>
-          <div class="experience-subtitle">PhD in Computer Science</div>
-          <p class="experience-description">Advisor: Charalampos Papamanthou.</p>
-        </div>
-        <div class="experience-date">2022–present</div>
-      </article>
-      <article class="experience-item">
-        <div>
-          <h3 class="experience-title">Texas A&amp;M University</h3>
-          <div class="experience-subtitle">MSc in Computer Science</div>
-          <p class="experience-description">GPA: 3.8/4.0.</p>
-        </div>
-        <div class="experience-date">2022</div>
-      </article>
-      <article class="experience-item">
-        <div>
-          <h3 class="experience-title">Rochester Institute of Technology</h3>
-          <div class="experience-subtitle">BSc in Electrical Engineering</div>
-          <p class="experience-description">GPA: 3.98/4.0.</p>
-        </div>
-        <div class="experience-date">2019</div>
-      </article>
     </div>
   </section>
 
@@ -298,36 +274,14 @@ author_profile: false
         </div>
         <div class="experience-date">May 2026</div>
       </article>
-    </div>
-  </section>
-
-  <section id="teaching" class="content-section">
-    <div class="section-label"><h2>Teaching</h2></div>
-    <div class="section-body experience-list">
-      <article class="experience-item">
-        <div>
-          <h3 class="experience-title">Yale University</h3>
-          <div class="experience-subtitle">Graduate Teaching Assistant, Computer Science</div>
-          <p class="experience-description">CPSC 466/566: Blockchain and Cryptocurrency.</p>
-        </div>
-        <div class="experience-date">Aug–Dec 2024</div>
-      </article>
 
       <article class="experience-item">
         <div>
-          <h3 class="experience-title">Texas A&amp;M University</h3>
-          <div class="experience-subtitle">Graduate Teaching Assistant, Computer Science</div>
-          <p class="experience-description">Data Structures and Algorithms, Computer Organization, and Programming Languages.</p>
+          <h3 class="experience-title">Censorship Resistance vs Throughput in Multi-Proposer BFT Protocols</h3>
+          <div class="experience-subtitle">Invited Talk · IC3 2026</div>
+          <p class="experience-description">Talk on the CCS 2026 paper.</p>
         </div>
-        <div class="experience-date">2020–2022</div>
-      </article>
-
-      <article class="experience-item">
-        <div>
-          <h3 class="experience-title">Rochester Institute of Technology</h3>
-          <div class="experience-subtitle">Graduate Teaching Assistant, Electrical Engineering</div>
-        </div>
-        <div class="experience-date">2016–2019</div>
+        <div class="experience-date">2026</div>
       </article>
     </div>
   </section>

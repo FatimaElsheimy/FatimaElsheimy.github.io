@@ -7,9 +7,6 @@
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved === "light" || saved === "dark") return saved;
     } catch (_) {}
-
-    // The site intentionally opens in light mode unless the visitor has
-    // explicitly selected dark mode before.
     return "light";
   }
 
@@ -28,37 +25,45 @@
     button.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
   }
 
-  function createToggle() {
-    if (document.getElementById("theme-toggle")) return;
+  function toggleTheme() {
+    const current = root.dataset.theme === "dark" ? "dark" : "light";
+    const next = current === "dark" ? "light" : "dark";
+    try {
+      localStorage.setItem(STORAGE_KEY, next);
+    } catch (_) {}
+    applyTheme(next);
+  }
 
-    const button = document.createElement("button");
-    button.id = "theme-toggle";
-    button.className = "theme-toggle";
-    button.type = "button";
-    button.innerHTML = [
-      '<span class="theme-toggle__sun" aria-hidden="true">☀</span>',
-      '<span class="theme-toggle__track" aria-hidden="true"><span class="theme-toggle__thumb"></span></span>',
-      '<span class="theme-toggle__moon" aria-hidden="true">☾</span>'
-    ].join("");
+  function ensureToggle() {
+    let button = document.getElementById("theme-toggle");
 
-    button.addEventListener("click", function () {
-      const current = root.dataset.theme === "dark" ? "dark" : "light";
-      const next = current === "dark" ? "light" : "dark";
-      try {
-        localStorage.setItem(STORAGE_KEY, next);
-      } catch (_) {}
-      applyTheme(next);
-    });
+    // Fallback for non-home pages: keep the same control available globally.
+    if (!button) {
+      button = document.createElement("button");
+      button.id = "theme-toggle";
+      button.className = "theme-toggle";
+      button.type = "button";
+      button.innerHTML = [
+        '<span class="theme-toggle__sun" aria-hidden="true">☀</span>',
+        '<span class="theme-toggle__track" aria-hidden="true"><span class="theme-toggle__thumb"></span></span>',
+        '<span class="theme-toggle__moon" aria-hidden="true">☾</span>'
+      ].join("");
+      document.body.appendChild(button);
+    }
 
-    document.body.appendChild(button);
+    if (!button.dataset.themeBound) {
+      button.addEventListener("click", toggleTheme);
+      button.dataset.themeBound = "true";
+    }
+
     applyTheme(root.dataset.theme || preferredTheme());
   }
 
-  if (!root.dataset.theme) applyTheme(preferredTheme());
+  if (!root.dataset.theme) root.dataset.theme = preferredTheme();
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", createToggle);
+    document.addEventListener("DOMContentLoaded", ensureToggle);
   } else {
-    createToggle();
+    ensureToggle();
   }
 })();
