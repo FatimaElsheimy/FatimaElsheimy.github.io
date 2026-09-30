@@ -1,16 +1,9 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
-
-<style>
-strong {
-  color: #003366;
-  font-weight: 700;
-}
-</style>
 
 Please find my full publication list at [my Google Scholar profile](https://scholar.google.com/citations?user=MwsBf2AAAAAJ&hl=en).
 
@@ -49,5 +42,5 @@ Please find my full publication list at [my Google Scholar profile](https://scho
   *Proceedings of the 2024 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)*, 2024.
 
 * J. Ernstberger, J. Lauinger, **F. Elsheimy**, L. Zhou, S. Steinhorst, R. Canetti, et al.  
-  “Sok: data sovereignty,”  
+  “SoK: Data Sovereignty,”  
   *2023 IEEE 8th European Symposium on Security and Privacy (EuroS&P)*, 2023.
