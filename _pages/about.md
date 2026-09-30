@@ -26,11 +26,10 @@ author_profile: false
 
   <section class="hero" aria-labelledby="home-title">
     <div class="hero-copy">
-      <p class="eyebrow">Yale University · Computer Science</p>
       <h1 id="home-title">Fatima Elsheimy</h1>
       <p class="hero-lede">
-        PhD candidate working on distributed cryptographic systems, applied cryptography,
-        consensus algorithms, and blockchain protocols.
+        PhD candidate working at the intersection of distributed systems,
+        cryptography, and blockchain protocols.
       </p>
 
       <div class="profile-links" aria-label="Profile links">
