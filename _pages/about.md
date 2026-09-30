@@ -12,6 +12,8 @@ author_profile: false
       <a href="#about">About</a>
       <a href="#publications">Publications</a>
       <a href="#experience">Experience</a>
+      <a href="#talks">Talks</a>
+      <a href="#teaching">Teaching</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -21,8 +23,8 @@ author_profile: false
       <p class="eyebrow">Yale University · Computer Science</p>
       <h1 id="home-title">Fatima Elsheimy</h1>
       <p class="hero-lede">
-        PhD candidate working at the intersection of distributed systems,
-        cryptography, and blockchain protocols.
+        PhD candidate working on distributed cryptographic systems, applied cryptography,
+        consensus algorithms, and blockchain protocols.
       </p>
 
       <div class="profile-links" aria-label="Profile links">
@@ -37,42 +39,96 @@ author_profile: false
   </section>
 
   <section id="about" class="content-section">
-    <div class="section-label">
-      <h2>About</h2>
-    </div>
+    <div class="section-label"><h2>About</h2></div>
     <div class="section-body">
       <p>
-        I am a PhD candidate in the Department of Computer Science at Yale University
-        and a member of the
+        I am a PhD candidate in Computer Science at Yale University and a member of the
         <a href="http://yacl.cs.yale.edu">Yale Applied Cryptography Laboratory</a>.
-        I began my PhD in Fall 2022 under the supervision of
-        <a href="https://www.cs.yale.edu/homes/cpap/">Prof. Charalampos Papamanthou</a>.
-        I also work closely with <a href="https://www.julianloss.com">Julian Loss</a>.
+        I began my PhD in 2022 under the supervision of
+        <a href="https://www.cs.yale.edu/homes/cpap/">Prof. Charalampos Papamanthou</a>
+        and also work closely with <a href="https://www.julianloss.com">Julian Loss</a>.
       </p>
       <p>
-        My research lies at the intersection of distributed systems, cryptography,
-        and blockchain protocols.
+        My research focuses on distributed cryptographic systems, applied cryptography,
+        consensus algorithms, and blockchain protocols.
       </p>
     </div>
   </section>
 
-  <section id="publications" class="content-section">
-    <div class="section-label">
-      <h2>Publications</h2>
+  <section id="education" class="content-section">
+    <div class="section-label"><h2>Education</h2></div>
+    <div class="section-body experience-list">
+      <article class="experience-item">
+        <div>
+          <h3 class="experience-title">Yale University</h3>
+          <div class="experience-subtitle">PhD in Computer Science</div>
+          <p class="experience-description">Advisor: Charalampos Papamanthou.</p>
+        </div>
+        <div class="experience-date">2022–present</div>
+      </article>
+      <article class="experience-item">
+        <div>
+          <h3 class="experience-title">Texas A&amp;M University</h3>
+          <div class="experience-subtitle">MSc in Computer Science</div>
+          <p class="experience-description">GPA: 3.8/4.0.</p>
+        </div>
+        <div class="experience-date">2022</div>
+      </article>
+      <article class="experience-item">
+        <div>
+          <h3 class="experience-title">Rochester Institute of Technology</h3>
+          <div class="experience-subtitle">BSc in Electrical Engineering</div>
+          <p class="experience-description">GPA: 3.98/4.0.</p>
+        </div>
+        <div class="experience-date">2019</div>
+      </article>
     </div>
+  </section>
+
+  <section id="publications" class="content-section">
+    <div class="section-label"><h2>Publications</h2></div>
     <div class="section-body">
       <p class="publications-intro">
-        Full publication list on
+        Accepted and published papers are listed first. See also
+        <a href="/publications/">the full publication page</a> and
         <a href="https://scholar.google.com/citations?user=MwsBf2AAAAAJ&hl=en">Google Scholar</a>.
       </p>
 
+      <div class="pub-group-label">Accepted / published</div>
       <div class="pub-list">
+        <article class="pub">
+          <div class="pub-year">2027</div>
+          <div>
+            <h3 class="pub-title">BumbleBee: Best-of-Both-Worlds MVBA with Optimal Communication, Latency and Resilience Tradeoffs</h3>
+            <p class="pub-authors"><strong>F. Elsheimy</strong>, S. H. Kamp</p>
+            <p class="pub-venue accepted"><strong>S&amp;P 2027</strong></p>
+          </div>
+        </article>
+
         <article class="pub">
           <div class="pub-year">2026</div>
           <div>
             <h3 class="pub-title">Optimal Best-of-Both-Worlds Consensus</h3>
             <p class="pub-authors"><strong>F. Elsheimy</strong>, S. H. Kamp, J. Loss, J. B. Nielsen</p>
-            <p class="pub-venue">CRYPTO 2026</p>
+            <p class="pub-venue accepted"><strong>CRYPTO 2026</strong></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-year">2026</div>
+          <div>
+            <h3 class="pub-title">Brief Announcement: BumbleBee: Best-of-Both-Worlds MVBA with Optimal Communication, Latency and Resilience Tradeoffs</h3>
+            <p class="pub-authors"><strong>F. Elsheimy</strong>, S. H. Kamp</p>
+            <p class="pub-venue accepted"><strong>PODC 2026</strong></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-year">2026</div>
+          <div>
+            <h3 class="pub-title">Censorship Resistance and Throughput with Multiple Concurrent Proposers</h3>
+            <p class="pub-authors">A. Saraf, G. Kaklamanis, S. Wadhwa, <strong>F. Elsheimy</strong></p>
+            <p class="pub-venue accepted"><strong>AFT 2026</strong></p>
           </div>
         </article>
 
@@ -81,7 +137,16 @@ author_profile: false
           <div>
             <h3 class="pub-title">Censorship Resistance vs Throughput in Multi-Proposer BFT Protocols</h3>
             <p class="pub-authors"><strong>F. Elsheimy</strong>, I. Kaklamanis, S. Wadhwa, C. Papamanthou, F. Zhang</p>
-            <p class="pub-venue">CCS 2026</p>
+            <p class="pub-venue accepted"><strong>CCS 2026</strong></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-year">2026</div>
+          <div>
+            <h3 class="pub-title">AegisBFT: Fast, Responsive, ForkResistant Consensus with Speculation Accountability</h3>
+            <p class="pub-authors">M. M. Jalalzai, K. Babel, J. Jovan, T. Klenze, S. Das, <strong>F. Elsheimy</strong>, M. Setrin, J. Bergschneider, B. P. Gilkalaye</p>
+            <p class="pub-venue accepted"><strong>DISC 2026</strong></p>
           </div>
         </article>
 
@@ -90,34 +155,7 @@ author_profile: false
           <div>
             <h3 class="pub-title">Fast and Efficient Perfectly Secure Network-Agnostic Secure Computation</h3>
             <p class="pub-authors">G. Asharov, <strong>F. Elsheimy</strong>, G. Stern</p>
-            <p class="pub-venue">EUROCRYPT 2026</p>
-          </div>
-        </article>
-
-        <article class="pub">
-          <div class="pub-year">2025</div>
-          <div>
-            <h3 class="pub-title">MonadBFT: Fast, responsive, fork-resistant streamlined consensus</h3>
-            <p class="pub-authors">M. Jalalzai, K. Babel, J. Komatovic, T. Klenze, S. Das, <strong>F. Elsheimy</strong>, M. Setrin, et al.</p>
-            <p class="pub-venue">arXiv preprint arXiv:2502.20692</p>
-          </div>
-        </article>
-
-        <article class="pub">
-          <div class="pub-year">2025</div>
-          <div>
-            <h3 class="pub-title">Towards Optimal Early Stopping Agreement Protocols</h3>
-            <p class="pub-authors"><strong>F. Elsheimy</strong>, J. Loss, C. Papamanthou</p>
-            <p class="pub-venue">Cryptology ePrint Archive</p>
-          </div>
-        </article>
-
-        <article class="pub">
-          <div class="pub-year">2025</div>
-          <div>
-            <h3 class="pub-title">Early Stopping is Cheap</h3>
-            <p class="pub-authors"><strong>F. Elsheimy</strong>, S. H. Kamp, J. Loss</p>
-            <p class="pub-venue">Cryptology ePrint Archive</p>
+            <p class="pub-venue accepted"><strong>EUROCRYPT 2026</strong></p>
           </div>
         </article>
 
@@ -126,7 +164,7 @@ author_profile: false
           <div>
             <h3 class="pub-title">Early Stopping Byzantine Agreement in \((1+\epsilon)\cdot f\) Rounds</h3>
             <p class="pub-authors"><strong>F. Elsheimy</strong>, J. Loss, C. Papamanthou</p>
-            <p class="pub-venue">ASIACRYPT 2024</p>
+            <p class="pub-venue accepted"><strong>ASIACRYPT 2024</strong></p>
           </div>
         </article>
 
@@ -135,7 +173,7 @@ author_profile: false
           <div>
             <h3 class="pub-title">Deterministic Byzantine Agreement with Adaptive \(O(n \cdot f)\) Communication</h3>
             <p class="pub-authors"><strong>F. Elsheimy</strong>, G. Tsimos, C. Papamanthou</p>
-            <p class="pub-venue">SODA 2024</p>
+            <p class="pub-venue accepted"><strong>SODA 2024</strong></p>
           </div>
         </article>
 
@@ -144,7 +182,55 @@ author_profile: false
           <div>
             <h3 class="pub-title">SoK: Data Sovereignty</h3>
             <p class="pub-authors">J. Ernstberger, J. Lauinger, <strong>F. Elsheimy</strong>, L. Zhou, S. Steinhorst, R. Canetti, et al.</p>
-            <p class="pub-venue">EuroS&amp;P 2023</p>
+            <p class="pub-venue accepted"><strong>EuroS&amp;P 2023</strong></p>
+          </div>
+        </article>
+      </div>
+
+      <div class="pub-group-label pub-group-spaced">Preprints / manuscripts</div>
+      <div class="pub-list">
+        <article class="pub">
+          <div class="pub-year">2026</div>
+          <div>
+            <h3 class="pub-title">Cadence: Extreme Pipelining with Multiple Concurrent Proposers</h3>
+            <p class="pub-authors">K. Babel, <strong>F. Elsheimy</strong>, L. Heimbach, M. M. Jalalzai, T. Klenze, et al.</p>
+            <p class="pub-venue preprint">arXiv:2607.02275</p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-year">2026</div>
+          <div>
+            <h3 class="pub-title">Early Stopping is Cheap</h3>
+            <p class="pub-authors"><strong>F. Elsheimy</strong>, J. Loss, S. H. Kamp</p>
+            <p class="pub-venue preprint">Cryptology ePrint Archive</p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-year">2026</div>
+          <div>
+            <h3 class="pub-title">Practical TimeSync Protocol for Blockchains</h3>
+            <p class="pub-authors"><strong>F. Elsheimy</strong>, Category Labs</p>
+            <p class="pub-venue preprint">Manuscript / submission</p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-year">2025</div>
+          <div>
+            <h3 class="pub-title">MonadBFT: Fast, Responsive, Fork-Resistant Streamlined Consensus</h3>
+            <p class="pub-authors">M. M. Jalalzai, K. Babel, J. Komatovic, T. Klenze, S. Das, <strong>F. Elsheimy</strong>, M. Setrin, et al.</p>
+            <p class="pub-venue preprint">arXiv:2502.20692</p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-year">2025</div>
+          <div>
+            <h3 class="pub-title">Towards Optimal Early Stopping Agreement Protocols</h3>
+            <p class="pub-authors"><strong>F. Elsheimy</strong>, J. Loss, C. Papamanthou</p>
+            <p class="pub-venue preprint">Cryptology ePrint Archive</p>
           </div>
         </article>
       </div>
@@ -152,45 +238,124 @@ author_profile: false
   </section>
 
   <section id="experience" class="content-section">
-    <div class="section-label">
-      <h2>Experience</h2>
-    </div>
+    <div class="section-label"><h2>Experience</h2></div>
     <div class="section-body experience-list">
       <article class="experience-item">
         <div>
-          <h3 class="experience-title">Category Labs</h3>
+          <h3 class="experience-title">Mysten Labs</h3>
           <div class="experience-subtitle">Research Intern · New York</div>
-          <p class="experience-description">Worked with Mussadiq Jalalzai on MonadBFT.</p>
+          <p class="experience-description">Worked with Lefteris and Alberto Sonnino on new consensus protocols.</p>
         </div>
-        <div class="experience-date">2025</div>
+        <div class="experience-date">May–Aug 2026</div>
       </article>
 
       <article class="experience-item">
         <div>
-          <h3 class="experience-title">CISPA Helmholtz Center</h3>
-          <div class="experience-subtitle">Visiting Researcher · Germany</div>
-          <p class="experience-description">
-            Worked with Julian Loss on efficient consensus protocols and early-stopping Byzantine agreement.
-          </p>
+          <h3 class="experience-title">Category Labs</h3>
+          <div class="experience-subtitle">Research Intern · New York</div>
+          <p class="experience-description">Worked with Mussadiq Jalalzai and Kushal Babel on the MonadBFT protocol.</p>
         </div>
-        <div class="experience-date">2024</div>
+        <div class="experience-date">Jun 2025–May 2026</div>
+      </article>
+
+      <article class="experience-item">
+        <div>
+          <h3 class="experience-title">CISPA Helmholtz Center for Information Security</h3>
+          <div class="experience-subtitle">Visiting Researcher · Saarbrücken, Germany</div>
+          <p class="experience-description">Worked with Julian Loss on efficient consensus protocols.</p>
+        </div>
+        <div class="experience-date">Jan–Apr 2024</div>
       </article>
 
       <article class="experience-item">
         <div>
           <h3 class="experience-title">UC Berkeley</h3>
-          <div class="experience-subtitle">Visiting Researcher</div>
-          <p class="experience-description">Worked with Dawn Song on data sovereignty and Web3 systems.</p>
+          <div class="experience-subtitle">Visiting Researcher · Berkeley, CA</div>
+          <p class="experience-description">Worked with Dawn Song on data sovereignty and Web3.</p>
         </div>
-        <div class="experience-date">2022</div>
+        <div class="experience-date">Jun 2020–Aug 2022</div>
+      </article>
+
+      <article class="experience-item">
+        <div>
+          <h3 class="experience-title">Xerox Corporation</h3>
+          <div class="experience-subtitle">Embedded Software Engineer · Rochester, NY</div>
+          <p class="experience-description">Developed and tested embedded software and hardware-facing interfaces.</p>
+        </div>
+        <div class="experience-date">Jun 2019–Aug 2020</div>
       </article>
     </div>
   </section>
 
-  <section id="contact" class="content-section">
-    <div class="section-label">
-      <h2>Contact</h2>
+  <section id="talks" class="content-section">
+    <div class="section-label"><h2>Selected Talks</h2></div>
+    <div class="section-body experience-list">
+      <article class="experience-item">
+        <div>
+          <h3 class="experience-title">Optimal Best-of-Both-Worlds Consensus</h3>
+          <div class="experience-subtitle">Summer School on Blockchain Consensus · Columbia University</div>
+          <p class="experience-description">Columbia-Ethereum Research Center for Blockchain Protocol Design.</p>
+        </div>
+        <div class="experience-date">May 2026</div>
+      </article>
     </div>
+  </section>
+
+  <section id="teaching" class="content-section">
+    <div class="section-label"><h2>Teaching</h2></div>
+    <div class="section-body experience-list">
+      <article class="experience-item">
+        <div>
+          <h3 class="experience-title">Yale University</h3>
+          <div class="experience-subtitle">Graduate Teaching Assistant, Computer Science</div>
+          <p class="experience-description">CPSC 466/566: Blockchain and Cryptocurrency.</p>
+        </div>
+        <div class="experience-date">Aug–Dec 2024</div>
+      </article>
+
+      <article class="experience-item">
+        <div>
+          <h3 class="experience-title">Texas A&amp;M University</h3>
+          <div class="experience-subtitle">Graduate Teaching Assistant, Computer Science</div>
+          <p class="experience-description">Data Structures and Algorithms, Computer Organization, and Programming Languages.</p>
+        </div>
+        <div class="experience-date">2020–2022</div>
+      </article>
+
+      <article class="experience-item">
+        <div>
+          <h3 class="experience-title">Rochester Institute of Technology</h3>
+          <div class="experience-subtitle">Graduate Teaching Assistant, Electrical Engineering</div>
+        </div>
+        <div class="experience-date">2016–2019</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="honors-service" class="content-section">
+    <div class="section-label"><h2>Honors &amp; Service</h2></div>
+    <div class="section-body">
+      <div class="mini-grid">
+        <div>
+          <h3 class="mini-heading">Selected honors</h3>
+          <ul class="compact-list">
+            <li><strong>Ethereum Research Grant</strong>, $42,000, joint with Fan Zhang (2025)</li>
+            <li><strong>Valedictorian Award</strong>, Rochester Institute of Technology (2019)</li>
+            <li><strong>Outstanding Undergraduate Scholar Award</strong>, Rochester Institute of Technology (2019)</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mini-heading">External reviewing</h3>
+          <p class="muted-copy">
+            IEEE S&amp;P, CCS, Financial Cryptography, EUROCRYPT, CRYPTO, and PODC.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="content-section">
+    <div class="section-label"><h2>Contact</h2></div>
     <div class="section-body">
       <div class="contact-card">
         <p>

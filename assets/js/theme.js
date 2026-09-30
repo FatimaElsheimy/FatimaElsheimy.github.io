@@ -8,28 +8,24 @@
       if (saved === "light" || saved === "dark") return saved;
     } catch (_) {}
 
-    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light";
+    // The site intentionally opens in light mode unless the visitor has
+    // explicitly selected dark mode before.
+    return "light";
   }
 
   function applyTheme(theme) {
     root.dataset.theme = theme;
 
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute("content", theme === "dark" ? "#171518" : "#fffdfb");
+    if (meta) meta.setAttribute("content", theme === "dark" ? "#171518" : "#ffffff");
 
     const button = document.getElementById("theme-toggle");
     if (!button) return;
 
     const nextTheme = theme === "dark" ? "light" : "dark";
-    const icon = button.querySelector(".theme-toggle__icon");
-    const label = button.querySelector(".theme-toggle__label");
-
     button.setAttribute("aria-label", `Switch to ${nextTheme} mode`);
     button.setAttribute("title", `Switch to ${nextTheme} mode`);
-    if (icon) icon.textContent = theme === "dark" ? "☀" : "◐";
-    if (label) label.textContent = theme === "dark" ? "Light" : "Dark";
+    button.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
   }
 
   function createToggle() {
@@ -39,7 +35,11 @@
     button.id = "theme-toggle";
     button.className = "theme-toggle";
     button.type = "button";
-    button.innerHTML = '<span class="theme-toggle__icon" aria-hidden="true"></span><span class="theme-toggle__label"></span>';
+    button.innerHTML = [
+      '<span class="theme-toggle__sun" aria-hidden="true">☀</span>',
+      '<span class="theme-toggle__track" aria-hidden="true"><span class="theme-toggle__thumb"></span></span>',
+      '<span class="theme-toggle__moon" aria-hidden="true">☾</span>'
+    ].join("");
 
     button.addEventListener("click", function () {
       const current = root.dataset.theme === "dark" ? "dark" : "light";
