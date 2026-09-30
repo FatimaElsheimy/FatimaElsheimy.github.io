@@ -59,9 +59,6 @@ Accepted and published papers are listed first. See also [my Google Scholar prof
   “Early Stopping is Cheap.”  
   Cryptology ePrint Archive, 2026.
 
-* **F. Elsheimy**, Category Labs,  
-  “Practical TimeSync Protocol for Blockchains.”  
-  Manuscript / submission, 2026.
 
 * M. M. Jalalzai, K. Babel, J. Komatovic, T. Klenze, S. Das, **F. Elsheimy**, M. Setrin, et al.,  
   “MonadBFT: Fast, Responsive, Fork-Resistant Streamlined Consensus.”  

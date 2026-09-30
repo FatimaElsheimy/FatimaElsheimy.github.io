@@ -16,7 +16,7 @@ author_profile: false
         <a href="#talks">Talks</a>
         <a href="#contact">Contact</a>
       </nav>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode" onclick="window.toggleSiteTheme && window.toggleSiteTheme()">
         <span class="theme-toggle__sun" aria-hidden="true">☀</span>
         <span class="theme-toggle__track" aria-hidden="true"><span class="theme-toggle__thumb"></span></span>
         <span class="theme-toggle__moon" aria-hidden="true">☾</span>
@@ -27,10 +27,6 @@ author_profile: false
   <section class="hero" aria-labelledby="home-title">
     <div class="hero-copy">
       <h1 id="home-title">Fatima Elsheimy</h1>
-      <p class="hero-lede">
-        PhD candidate working at the intersection of distributed systems,
-        cryptography, and blockchain protocols.
-      </p>
 
       <div class="profile-links" aria-label="Profile links">
         <a href="mailto:fatima.elsheimy@yale.edu">Email</a>
@@ -182,14 +178,6 @@ author_profile: false
           </div>
         </article>
 
-        <article class="pub">
-          <div class="pub-year">2026</div>
-          <div>
-            <h3 class="pub-title">Practical TimeSync Protocol for Blockchains</h3>
-            <p class="pub-authors"><strong>F. Elsheimy</strong>, Category Labs</p>
-            <p class="pub-venue preprint">Manuscript / submission</p>
-          </div>
-        </article>
 
         <article class="pub">
           <div class="pub-year">2025</div>
@@ -269,7 +257,6 @@ author_profile: false
         <div>
           <h3 class="experience-title">Optimal Best-of-Both-Worlds Consensus</h3>
           <div class="experience-subtitle">Summer School on Blockchain Consensus · Columbia University</div>
-          <p class="experience-description">Columbia-Ethereum Research Center for Blockchain Protocol Design.</p>
         </div>
         <div class="experience-date">May 2026</div>
       </article>
@@ -278,7 +265,6 @@ author_profile: false
         <div>
           <h3 class="experience-title">Censorship Resistance vs Throughput in Multi-Proposer BFT Protocols</h3>
           <div class="experience-subtitle">Invited Talk · IC3 2026</div>
-          <p class="experience-description">Talk on the CCS 2026 paper.</p>
         </div>
         <div class="experience-date">2026</div>
       </article>

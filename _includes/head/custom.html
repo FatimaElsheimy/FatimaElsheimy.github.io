@@ -5,11 +5,43 @@
 <!-- Apply a saved theme before the page paints; otherwise default to light. -->
 <script>
   (function () {
-    try {
-      var saved = localStorage.getItem('fatima-site-theme');
-      var theme = saved === 'light' || saved === 'dark' ? saved : 'light';
-      document.documentElement.setAttribute('data-theme', theme);
-    } catch (_) {}
+    var root = document.documentElement;
+    var key = 'fatima-site-theme';
+
+    function readTheme() {
+      try {
+        var saved = localStorage.getItem(key);
+        return saved === 'dark' ? 'dark' : 'light';
+      } catch (_) {
+        return 'light';
+      }
+    }
+
+    function applyTheme(theme) {
+      root.setAttribute('data-theme', theme);
+      var meta = document.querySelector('meta[name="theme-color"]');
+      if (meta) meta.setAttribute('content', theme === 'dark' ? '#171518' : '#ffffff');
+
+      var button = document.getElementById('theme-toggle');
+      if (button) {
+        var next = theme === 'dark' ? 'light' : 'dark';
+        button.setAttribute('aria-label', 'Switch to ' + next + ' mode');
+        button.setAttribute('title', 'Switch to ' + next + ' mode');
+        button.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+      }
+    }
+
+    window.toggleSiteTheme = function () {
+      var current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      var next = current === 'dark' ? 'light' : 'dark';
+      try { localStorage.setItem(key, next); } catch (_) {}
+      applyTheme(next);
+    };
+
+    applyTheme(readTheme());
+    document.addEventListener('DOMContentLoaded', function () {
+      applyTheme(root.getAttribute('data-theme') || readTheme());
+    });
   })();
 </script>
 
