@@ -50,8 +50,7 @@ author_profile: false
         and also work closely with <a href="https://www.julianloss.com">Julian Loss</a>.
       </p>
       <p>
-        My research focuses on distributed cryptographic systems, multiparty computation,
-        applied cryptography, consensus algorithms, and blockchain protocols.
+        My research focuses on distributed systems, multiparty computation, and blockchain protocols.
       </p>
     </div>
   </section>
