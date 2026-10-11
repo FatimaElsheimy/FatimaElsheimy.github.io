@@ -29,13 +29,13 @@ Accepted and published papers are listed first. See also [my Google Scholar prof
   “Censorship Resistance vs Throughput in Multi-Proposer BFT Protocols.”  
   **CCS 2026.**
 
-* M. M. Jalalzai, K. Babel, J. Jovan, T. Klenze, S. Das, **F. Elsheimy**, M. Setrin, J. Bergschneider, B. P. Gilkalaye,  
-  “AegisBFT: Fast, Responsive, ForkResistant Consensus with Speculation Accountability.”  
-  **DISC 2026.**
-
 * G. Asharov, **F. Elsheimy**, G. Stern,  
   “Fast and Efficient Perfectly Secure Network-Agnostic Secure Computation.”  
   **EUROCRYPT 2026.**
+
+* M. M. Jalalzai, K. Babel, J. Jovan, T. Klenze, S. Das, **F. Elsheimy**, M. Setrin, J. Bergschneider, B. P. Gilkalaye,  
+  “AegisBFT: Fast, Responsive, ForkResistant Consensus with Speculation Accountability.”  
+  **DISC 2026.**
 
 * **F. Elsheimy**, J. Loss, C. Papamanthou,  
   “Early Stopping Byzantine Agreement in $(1+\epsilon)\cdot f$ Rounds.”  
@@ -49,7 +49,11 @@ Accepted and published papers are listed first. See also [my Google Scholar prof
   “SoK: Data Sovereignty.”  
   **EuroS&P 2023**, pp. 122–143.
 
-## Preprints / Other Manuscripts
+## Preprints & Papers Under Submission
+
+* G. Asharov, A. Chandramouli, **F. Elsheimy**, G. Stern,  
+  “SCALE-IT: Perfect MPC with Constant Overhead.”  
+  Under submission, 2026.
 
 * K. Babel, **F. Elsheimy**, L. Heimbach, M. M. Jalalzai, T. Klenze, et al.,  
   “Cadence: Extreme Pipelining with Multiple Concurrent Proposers.”  
