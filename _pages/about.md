@@ -67,6 +67,15 @@ author_profile: false
       <div class="pub-group-label">Accepted / published</div>
       <div class="pub-list">
         <article class="pub">
+          <div class="pub-year">2026</div>
+          <div>
+            <h3 class="pub-title">Fast and Efficient Perfectly Secure Network-Agnostic Secure Computation</h3>
+            <p class="pub-authors">G. Asharov, <strong>F. Elsheimy</strong>, G. Stern</p>
+            <p class="pub-venue accepted"><strong>EUROCRYPT 2026</strong></p>
+          </div>
+        </article>
+
+        <article class="pub">
           <div class="pub-year">2027</div>
           <div>
             <h3 class="pub-title">BumbleBee: Best-of-Both-Worlds MVBA with Optimal Communication, Latency and Resilience Tradeoffs</h3>
@@ -121,15 +130,6 @@ author_profile: false
         </article>
 
         <article class="pub">
-          <div class="pub-year">2026</div>
-          <div>
-            <h3 class="pub-title">Fast and Efficient Perfectly Secure Network-Agnostic Secure Computation</h3>
-            <p class="pub-authors">G. Asharov, <strong>F. Elsheimy</strong>, G. Stern</p>
-            <p class="pub-venue accepted"><strong>EUROCRYPT 2026</strong></p>
-          </div>
-        </article>
-
-        <article class="pub">
           <div class="pub-year">2024</div>
           <div>
             <h3 class="pub-title">Early Stopping Byzantine Agreement in \((1+\epsilon)\cdot f\) Rounds</h3>
@@ -157,8 +157,17 @@ author_profile: false
         </article>
       </div>
 
-      <div class="pub-group-label pub-group-spaced">Preprints / manuscripts</div>
+      <div class="pub-group-label pub-group-spaced">Preprints &amp; Papers Under Submission</div>
       <div class="pub-list">
+        <article class="pub">
+          <div class="pub-year">2026</div>
+          <div>
+            <h3 class="pub-title">SCALE-IT: Perfect MPC with Constant Overhead</h3>
+            <p class="pub-authors">G. Asharov, A. Chandramouli, <strong>F. Elsheimy</strong>, G. Stern</p>
+            <p class="pub-venue preprint">Under submission</p>
+          </div>
+        </article>
+
         <article class="pub">
           <div class="pub-year">2026</div>
           <div>
@@ -215,7 +224,7 @@ author_profile: false
         <div>
           <h3 class="experience-title">Category Labs</h3>
           <div class="experience-subtitle">Research Intern · New York</div>
-          <p class="experience-description">Worked with Mussadiq Jalalzai and Kushal Babel on the MonadBFT protocol.</p>
+          <p class="experience-description">Worked with Mussadiq Jalalzai and Kushal Babel on MonadBFT and was one of the main authors of Cadence, Monad's next-generation consensus protocol.</p>
         </div>
         <div class="experience-date">Jun 2025–May 2026</div>
       </article>
