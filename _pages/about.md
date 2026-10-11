@@ -36,7 +36,7 @@ author_profile: false
       </div>
     </div>
 
-    <img src="/images/profilee.jpg" class="profile-pic" alt="Fatima Elsheimy">
+    <img src="/images/profile-2026.svg" class="profile-pic" alt="Fatima Elsheimy">
   </section>
 
   <section id="about" class="content-section">
