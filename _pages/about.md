@@ -36,7 +36,7 @@ author_profile: false
       </div>
     </div>
 
-    <img src="/images/profile-2026.svg" class="profile-pic" alt="Fatima Elsheimy">
+    <img src="/images/profilee.jpg" class="profile-pic" alt="Fatima Elsheimy">
   </section>
 
   <section id="about" class="content-section">
@@ -66,15 +66,6 @@ author_profile: false
 
       <div class="pub-group-label">Accepted / published</div>
       <div class="pub-list">
-        <article class="pub">
-          <div class="pub-year">2026</div>
-          <div>
-            <h3 class="pub-title">Fast and Efficient Perfectly Secure Network-Agnostic Secure Computation</h3>
-            <p class="pub-authors">G. Asharov, <strong>F. Elsheimy</strong>, G. Stern</p>
-            <p class="pub-venue accepted"><strong>EUROCRYPT 2026</strong></p>
-          </div>
-        </article>
-
         <article class="pub">
           <div class="pub-year">2027</div>
           <div>
@@ -117,6 +108,15 @@ author_profile: false
             <h3 class="pub-title">Censorship Resistance vs Throughput in Multi-Proposer BFT Protocols</h3>
             <p class="pub-authors"><strong>F. Elsheimy</strong>, I. Kaklamanis, S. Wadhwa, C. Papamanthou, F. Zhang</p>
             <p class="pub-venue accepted"><strong>CCS 2026</strong></p>
+          </div>
+        </article>
+
+<article class="pub">
+          <div class="pub-year">2026</div>
+          <div>
+            <h3 class="pub-title">Fast and Efficient Perfectly Secure Network-Agnostic Secure Computation</h3>
+            <p class="pub-authors">G. Asharov, <strong>F. Elsheimy</strong>, G. Stern</p>
+            <p class="pub-venue accepted"><strong>EUROCRYPT 2026</strong></p>
           </div>
         </article>
 
