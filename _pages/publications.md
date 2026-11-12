@@ -13,6 +13,14 @@ Accepted and published papers are listed first. See also [my Google Scholar prof
   “BumbleBee: Best-of-Both-Worlds MVBA with Optimal Communication, Latency and Resilience Tradeoffs.”  
   **IEEE Symposium on Security and Privacy (S&P 2027).**
 
+* **F. Elsheimy**, J. Loss, S. H. Kamp,  
+  “Early Stopping is Cheap.”  
+  **FC 2027.**
+
+* K. Babel, **F. Elsheimy**, L. Heimbach, M. M. Jalalzai, T. Klenze, et al.,  
+  “Cadence: Extreme Pipelining with Multiple Concurrent Proposers.”  
+  **FC 2027.**
+
 * **F. Elsheimy**, S. H. Kamp, J. Loss, J. B. Nielsen,  
   “Optimal Best-of-Both-Worlds Consensus.”  
   **CRYPTO 2026.**
@@ -54,15 +62,6 @@ Accepted and published papers are listed first. See also [my Google Scholar prof
 * G. Asharov, A. Chandramouli, **F. Elsheimy**, G. Stern,  
   “SCALE-IT: Perfect MPC with Constant Overhead.”  
   Under submission, 2026.
-
-* K. Babel, **F. Elsheimy**, L. Heimbach, M. M. Jalalzai, T. Klenze, et al.,  
-  “Cadence: Extreme Pipelining with Multiple Concurrent Proposers.”  
-  arXiv:2607.02275, 2026.
-
-* **F. Elsheimy**, J. Loss, S. H. Kamp,  
-  “Early Stopping is Cheap.”  
-  Cryptology ePrint Archive, 2026.
-
 
 * M. M. Jalalzai, K. Babel, J. Komatovic, T. Klenze, S. Das, **F. Elsheimy**, M. Setrin, et al.,  
   “MonadBFT: Fast, Responsive, Fork-Resistant Streamlined Consensus.”  
