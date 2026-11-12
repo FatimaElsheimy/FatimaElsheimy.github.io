@@ -76,6 +76,24 @@ author_profile: false
         </article>
 
         <article class="pub">
+          <div class="pub-year">2027</div>
+          <div>
+            <h3 class="pub-title">Early Stopping is Cheap</h3>
+            <p class="pub-authors"><strong>F. Elsheimy</strong>, J. Loss, S. H. Kamp</p>
+            <p class="pub-venue accepted"><strong>FC 2027</strong></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-year">2027</div>
+          <div>
+            <h3 class="pub-title">Cadence: Extreme Pipelining with Multiple Concurrent Proposers</h3>
+            <p class="pub-authors">K. Babel, <strong>F. Elsheimy</strong>, L. Heimbach, M. M. Jalalzai, T. Klenze, et al.</p>
+            <p class="pub-venue accepted"><strong>FC 2027</strong></p>
+          </div>
+        </article>
+
+        <article class="pub">
           <div class="pub-year">2026</div>
           <div>
             <h3 class="pub-title">Optimal Best-of-Both-Worlds Consensus</h3>
@@ -168,23 +186,9 @@ author_profile: false
           </div>
         </article>
 
-        <article class="pub">
-          <div class="pub-year">2026</div>
-          <div>
-            <h3 class="pub-title">Cadence: Extreme Pipelining with Multiple Concurrent Proposers</h3>
-            <p class="pub-authors">K. Babel, <strong>F. Elsheimy</strong>, L. Heimbach, M. M. Jalalzai, T. Klenze, et al.</p>
-            <p class="pub-venue preprint">arXiv:2607.02275</p>
-          </div>
-        </article>
 
-        <article class="pub">
-          <div class="pub-year">2026</div>
-          <div>
-            <h3 class="pub-title">Early Stopping is Cheap</h3>
-            <p class="pub-authors"><strong>F. Elsheimy</strong>, J. Loss, S. H. Kamp</p>
-            <p class="pub-venue preprint">Cryptology ePrint Archive</p>
-          </div>
-        </article>
+
+
 
 
         <article class="pub">
